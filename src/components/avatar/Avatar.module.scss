@@ -1,0 +1,17 @@
+@use "../../styles/colors";
+
+.avatar {
+    position: relative;
+}
+
+.image{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
