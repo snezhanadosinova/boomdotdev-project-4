@@ -1,9 +1,7 @@
 import * as React from "react";
-import Container from "@mui/material/Container";
+import {Container,Grid,Item } from "@mui/material";
 import styles from "./Header.module.scss";
 import classNames from "classnames";
-import Grid from "@mui/material/Grid";
-import Item from "@mui/material/Grid"
 import Logo from "../logo/Logo";
 import Search from "./Search";
 import MenuItems from "./MenuItems";
