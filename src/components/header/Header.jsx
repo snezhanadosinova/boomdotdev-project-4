@@ -1,10 +1,13 @@
 import * as React from "react";
-import {Container,Grid,Item } from "@mui/material";
+import Container from "@mui/material/Container";
 import styles from "./Header.module.scss";
 import classNames from "classnames";
+import Grid from "@mui/material/Grid";
+import Item from "@mui/material/Grid"
 import Logo from "../logo/Logo";
 import Search from "./Search";
 import MenuItems from "./MenuItems";
+import { Button } from "@mui/material";
 
 export default function Header() {
     return (

@@ -1,30 +1,16 @@
 import * as React from "react";
-import {Grid,Button, Link } from "@mui/material";
-import LinkButton from "../link/Link";
+import styles from "./Header.module.scss";
+import classNames from "classnames";
+import { Button } from "@mui/material";
+
 
 export default function MenuItems() {
     return (                
-      <Grid  container
-                direction="row"
-                justifyContent="end"
-                alignItems="center"
-                spacing={4}>
-      <Grid item>
-        <Link href="#" underline="none" color="inherit">
-            Home
-        </Link>
-        </Grid>
-        <Grid item>
-            <Link href="#"  underline="none" color="inherit">
-            Activity
-            </Link>
-        </Grid>
-        <Grid item>
-          <Button variant="contained" component={LinkButton} noLinkStyle href="/">
-            Explore
-          </Button>
-        </Grid>
-      </Grid>
+      <div className={classNames(styles.divButtons)}>
+        <Button className={classNames(styles.textButton)}>Home</Button>
+        <Button className={classNames(styles.textButton)}>Activity</Button>
+        <Button variant="contained">Explore</Button>
+      </div>
       );
 
 }
