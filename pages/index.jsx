@@ -6,6 +6,6 @@ export default function Index() {
   return (<>
   {/* <Example /> */}
   <Header/>
-  <Avatar size="90" url="../images/avatar.png" verified="true" />
+  <Avatar size="90" url="../images/avatar.png" verified />
   </>);
 }
