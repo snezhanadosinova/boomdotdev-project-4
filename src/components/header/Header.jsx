@@ -17,21 +17,21 @@ export default function Header() {
                 justifyContent="space-between"
                 alignItems="center"
                 spacing={2}>
-            <Grid item xs={1.5}>
-                <Item>
-                    <Logo type={"default"}/>
-                </Item>
-            </Grid>
-            <Grid item xs={6}>
-                <Item>
-                    <Search className={classNames(styles.search)}/>
-                </Item>
-            </Grid>
-            <Grid item xs>
-                <Item>
-                    <MenuItems/>
-                </Item>
-            </Grid>
+                <Grid item xs={1.5}>
+                    <Item>
+                        <Logo type={"default"}/>
+                    </Item>
+                </Grid>
+                <Grid item xs={6}>
+                    <Item>
+                        <Search className={classNames(styles.search)}/>
+                    </Item>
+                </Grid>
+                <Grid item xs>
+                    <Item>
+                        <MenuItems/>
+                    </Item>
+                </Grid>
             </Grid>
           </Container>
         </div>
