@@ -1,0 +1,16 @@
+@use "../../styles/colors";
+
+.user {
+ display: flex;
+}
+
+.name {
+font-weight: bold;
+font-size: 1rem;
+}
+
+.info {
+    color: colors.$success_main;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
